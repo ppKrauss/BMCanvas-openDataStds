@@ -1,0 +1,10 @@
+ORDEM,ELEMENTO,TITULO,GRUPO,DEFINIÇÃO
+1,customerSegments,Segmento de Clientes,Clientes,"há sempre um grupo especial de pessoas para adquirir seu produto ou serviço."
+2,valuePropositions,Proposta de Valor,Oferta,"vai muito além de definir produto, é a razão pela qual meus clientes querem comprar o que ofereço."
+3,channels,Canais,Clientes,"na hora da entrega, quanto mais curto o caminho que o cliente fizer, melhor. Como o cliente quer comprar?"
+4,customerRelationships,Relacionamentos com o Cliente,Clientes,"como meus clientes querem ser atendidos? Como mantenho a sua fidelidade?"
+5,revenueStreams,Fontes de Receita,Finanças,"como vou cobrar, deve estar de acordo com a forma que o cliente gosta de pagar."
+6,keyResources,Recursos Principais,Infraestrutura,"peças da máquina, recursos imprescindíveis para o funcionamento do negócio."
+7,keyActivities,Atividades Principais,Infraestrutura,"descubra quais são as atividades mais importantes (recursos humanos operando os demais recursos)."
+8,keyPartners,Parcerias Principais,Infraestrutura,"ninguém faz nada sozinho, descubra quem pode lhe ajudar ou participar do negócio."
+9,costStructure,Estrutura de Custos,Finanças,"listar os buscos, e lembrar que a diferenciação na redução de custos ajuda a abrir espaços de mercado."

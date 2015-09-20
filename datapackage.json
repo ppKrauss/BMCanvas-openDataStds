@@ -1,0 +1,102 @@
+{
+  "name": "BusinessModelCanvas-spec",
+  "title": "BusinessModelCanvas formal specification",
+  "sources": [
+    {
+      "name":"Cartilha do SEBRAE",
+      "web": "http://www.sebraecanvas.com.br/downloads/cartilha_canvas.pdf"
+    },
+    {
+      "name":"Business Model Generation, A. Osterwalder, Yves Pigneur, Alan Smith, and 470 practitioners from 45 countries, self published, 2010",
+      "web": "http://www.businessmodelgeneration.com/book"
+    },
+    {
+      "name":"the canvas std2009",
+      "web": "https://commons.wikimedia.org/wiki/File:Business_Model_Canvas.png"
+    },
+    {
+      "name":"the canvas lean2010",
+      "web": "http://leanstack.com/businessmodelcanvas/"
+    }
+  ],
+  "licenses": [
+    {
+      "id": "cc-by-sa",
+      "name": "CreatieCommons Attribution-ShareAlike 1.0 Generic",
+      "version": "1.0",
+      "url": "https://creativecommons.org/licenses/by-sa/1.0/deed.en"
+    },
+	  {
+		  "id": "odc-pddl",
+		  "name": "Public Domain Dedication and License",
+		  "version": "1.0",
+		  "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+	  }
+	],
+  "resources": [
+    {
+      "name": "BusinessModelCanvasDef",
+      "path": "data/BusinessModelCanvasDef*.csv",
+      "note": "by ppkrauss",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "SORT",
+            "description":"sort order in the fill-the-form activity",
+            "type": "integer"
+          },
+          {
+            "name": "ELEMENT",
+            "description":"internal element name (label)",
+            "type": "string"
+          },
+          {
+            "name": "TITLE",
+            "description":"title text (element name)",
+            "type": "string"
+          },
+          {
+            "name": "GROUP",
+            "description":"internal group label",
+            "type": "string"
+          },
+          {
+            "name": "DEFINITION",
+            "description":"description of element and synopsis of how to fill it",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "csv-header-translation": {
+    "ptBR":{"SORT":"ORDEM", "ELEMENT":"ELEMENTO", "TITLE":"TITULO", "GROUP":"GRUPO", "DEFINITION":"DEFINIÇÃO"}
+  },
+  "canvas-models": {
+
+    "std2009": {"rows": [  
+      {"cols": [ 
+        "keyPartners"   
+        ,{"rows": ["keyActivities", "keyResources"] }
+        ,"valuePropositions"
+          ,{"rows": ["customerRelationships", "channels"] }
+        ,"customerSegments"
+      ]},  
+      {"cols": [ "costStructure", "revenueStreams"] },  
+    ]},
+
+    "lean2010": {"rows": [  
+      {"cols": [ 
+        "keyPartners"   
+        ,{"rows": ["keyActivities", "keyResources"] }
+        ,"valuePropositions"
+          ,{"rows": ["customerRelationships", "channels"] }
+        ,"customerSegments"
+      ]},  
+      {"cols": [ "costStructure", "revenueStreams"] },  
+    ]},
+
+  }
+
+}

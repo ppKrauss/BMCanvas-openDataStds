@@ -5,17 +5,17 @@ Business Model Canvas, a proposal of simple Open Data Standards
 ## Objectives and motivations
 [Business Model Canvas](https://en.wikipedia.org/wiki/Business_Model_Canvas), or **BMCanvas**, is a well-accepted and popular language to express Business Models... As any other language, it is subject to the effects of the [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel). There are many tutorials (ex. more tham 3000 tutorials at youtube) and many APPs (more tham 100 sites that offer specialized canvas editors), etc.
 
-In each one of this BMCanvas content of application, it is possible to detect some kind of "variant" of terminology, strutucture, concepts or methodology. Users and developrs have a lack of reference models and recommendations about this variants. This project is a proposal to fill this lack. However, the focus here is limited to the project objetives:
+In each one of this BMCanvas content or application, it is possible to detect some kind of "variant" of terminology, structure, concept or methodology. Users and developers have a lack of reference models and recommendations about this variants. This project is a proposal to fill this lack. However, the focus here is limited to the project objectives:
 
-* promote a standard terminology into the BMCanvas variants;
-* offer a referential about main variants and semantics;
-* describe the canvas-structure of each variant;
-* offer support for data-interchange (import/export, etc.) of BMCanvas of different APPs or enviroments.
+* promote a *standard terminology* into the BMCanvas variants;
+* offer a *referential* (and labels) about main variants and semantics;
+* describe the *canvas structure* of each variant;
+* offer *support for data-interchange* (import/export, etc.) of BMCanvas of different APPs or enviroments.
 
-# Conventions of this standard proposal
+# The conventions
 Below, the standard. The formal specifications are distrubuted into (friendly) CSV and JSON files, all in a collaborative `git` context.
 
-This proposal use the Open Knowledge's [Data Packaged Core Datasets](https://github.com/datasets) conventions (as well [W3C conventions for CSV](http://www.w3.org/TR/tabular-data-model/)) for store data in a [five-star open format](http://5stardata.info/en/), preserving the full-access. 
+This proposal use the Open Knowledge's [Data Packaged Core Datasets](https://github.com/datasets) conventions (as well [W3C conventions for CSV](http://www.w3.org/TR/tabular-data-model/)) for store data in a [five-star open format](http://5stardata.info/en/), preserving its full-access.
 
 
 ## Popular models and standard models

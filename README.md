@@ -8,14 +8,13 @@ Below, the standard.
 ## Popular models and standard models
 ... intro ...
 
-File [BMCanvas-refModels.csv](./data/BMCanvas-refModels.csv) show the reference models and fix its labels, to distinguisg different Canvas strutures (or arrangement of concepts) and use in the other filenames.
-
+File [BMCanvas-refModels.csv](./data/refModels.csv) show the reference models and fix its labels, to distinguisg different Canvas strutures (or arrangement of concepts) and use in the other filenames. In this CSV the column `local_img` is a image illustration preserved in this repo as an evidence to the structure and terminology used in the reference model.
 
 ## Modeling concepts representation
 The concept list is not normalized, but expressed one set of concepts for each refModel-language. Anyway, the *element labels* are the commom for all descriptions, so, as in Wikipedia, we can expect a "concept consensus" between languages (in the *element* definition). All files with prefix "BMCanvasDef" are definitions.  Examples:
 
-* [BMCanvasDef-std2009-ptBR.csv](./data/BMCanvasDef-lean2010-ptBR.csv), a Brazilian Portuguese Standard Canvas descrition.
-* [BMCanvasDef-lean2010-ptBR.csv](./data/BMCanvasDef-lean2010-ptBR.csv),  a Brazilian Portuguese Lean Canvas descrition.
+* [BMCanvasDef-std2009-ptBR.csv](./data/def-lean2010-ptBR.csv), a Brazilian Portuguese Standard Canvas descrition.
+* [BMCanvasDef-lean2010-ptBR.csv](./data/def-lean2010-ptBR.csv),  a Brazilian Portuguese Lean Canvas descrition.
 * ...
 
 ## Canvas structure representation

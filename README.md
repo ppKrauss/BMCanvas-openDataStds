@@ -34,18 +34,7 @@ The concept list is not normalized, but expressed one set of concepts for each r
 ## Canvas structure representation
 The proposal is restricted to the usual design solutions, and the "usual" theme variations. So, as pointed by Wikipedia and others, the reference model is the [Strategyzer.com canvas](https://commons.wikimedia.org/wiki/File:Business_Model_Canvas.png), that is a table with 9 cells. Any other "variant canvas structure" of this project must by expressed as a "table os cells".
 
+The most simple and human-readable way to express formally the structure (to after use as "machine recipe" in template or design transcriptors) is to express the canvas in a CSV file and indicate the cells that must be merged, by a "left span" or "above span" commands in the merged cells. All the cells can be supposed in a balanced distribution, without lost of semantics &mdash; the simetry or widthes can be free for each application.
 
-There are two simple and open ways to express this kind of structure,
-
-* a CSV with element labels and "empty cells with commands" like `#command` indicating "span to here the cell left" (`#span-left`), `#span-below`, etc.
-* a simple JSON or XML structure mapping directally the structure.
-
-The first mode is good for transform into HTML's `table` representation, the second for "guilhotine cells" (old deprecated HTML frames or modern HTML5+CSS set of `div`) representation. [Cases analysis](#) show that "fluid  `div`s" is the preferible form of HTML implementation, so, the second mode was elected.
-
-![Structure illustration](./etc/img/canvasCels.png "Structure illustration")
-
-
-...
-
-
+So, to read and undertand the structure specification you only need to remember that the arrow symbols ("↑", "←", etc.) are prefixes for reserved words, as "↑span" and "←span". Example: compare the  [`std2009` structure specification](./data/strut-std2009.csv) with [its evidence](./data/evidence/std2009.png).
 

@@ -35,14 +35,13 @@
 	],
   "resources": [
     {
-      "name": "BusinessModelCanvasDef",
-      "path": "data/BusinessModelCanvasDef*.csv",
-      "note": "by ppkrauss",
+      "name": "canvas boxes definition",
+      "path": "data/def-*.csv",
       "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
-            "name": "SORT",
+            "name": "ORDER",
             "description":"sort order in the fill-the-form activity",
             "type": "integer"
           },
@@ -62,41 +61,127 @@
             "type": "string"
           },
           {
-            "name": "DEFINITION",
-            "description":"description of element and synopsis of how to fill it",
+            "name": "INSTRUCTIONS",
+            "description":"Synopsis of how to fill the element box",
             "type": "string"
           }
         ]
       }
-    }
+    },
+    {
+      "name": "Struture of a canvas",
+      "path": "data/strut-*.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {            
+            "name": "COL1",
+            "description":"the first column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {
+            "name": "COL2",
+            "description":"the second column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {
+            "name": "COL3",
+            "description":"the third column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {            
+            "name": "COL4",
+            "description":"the fourth column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {            
+            "name": "COL5",
+            "description":"the fifth column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {            
+            "name": "COL6",
+            "description":"the sixth column of the canvas, when abstracted as a table.",
+            "type": "string"
+          },
+          {            
+            "name": "COL7",
+            "description":"the seventh column of the canvas, but no one have more tham six.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "def-elements",
+      "path": "data/def-elements.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {            
+            "name": "ELEMENT",
+            "description":"The label of the box, as an software variable name.",
+            "type": "integer"
+          },
+          {
+            "name": "ABBREV",
+            "description":"Upper case letters to represent the element.",
+            "type": "string"
+          },
+          {
+            "name": "CONTEXT",
+            "description":"The label of the context or scope of the element use.",
+            "type": "string"
+          },
+          {
+            "name": "REF_WIKIDATA",
+            "description":"List of 0, 1 or 2 Wikidata (www.wikidata.org) IDs.",
+            "type": "string"
+          },
+          {
+            "name": "SYNOPSIS",
+            "description":"Synopsis of the concept. The other elements can be referred with the #prefix.",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "refModels",
+      "path": "data/refModels.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {            
+            "name": "LABEL",
+            "description":"The label of a canvas, to use in filenames or sufixes.",
+            "type": "string"
+          },
+          {
+            "name": "SCOPE",
+            "description":"The label of the context or scope of the element use.",
+            "type": "string"
+          },
+          {
+            "name": "NAME",
+            "description":"The title or name of the canvas.",
+            "type": "string"
+          },
+          {
+            "name": "URL",
+            "description":"URL of the canvas author, for formal reference and credits attribution.",
+            "type": "string"
+          },
+          {
+            "name": "NOTES",
+            "description":"Comments or brief description.",
+            "type": "string"
+          }
+        ]
+      }
+    }   
   ],
   "csv-header-translation": {
-    "ptBR":{"SORT":"ORDEM", "ELEMENT":"ELEMENTO", "TITLE":"TITULO", "GROUP":"GRUPO", "DEFINITION":"DEFINIÇÃO"}
-  },
-  "canvas-models": {
-
-    "std2009": {"rows": [  
-      {"cols": [ 
-        "keyPartners"   
-        ,{"rows": ["keyActivities", "keyResources"] }
-        ,"valuePropositions"
-          ,{"rows": ["customerRelationships", "channels"] }
-        ,"customerSegments"
-      ]},  
-      {"cols": [ "costStructure", "revenueStreams"] },  
-    ]},
-
-    "lean2010": {"rows": [  
-      {"cols": [ 
-        "keyPartners"   
-        ,{"rows": ["keyActivities", "keyResources"] }
-        ,"valuePropositions"
-          ,{"rows": ["customerRelationships", "channels"] }
-        ,"customerSegments"
-      ]},  
-      {"cols": [ "costStructure", "revenueStreams"] },  
-    ]},
-
+    "ptBR":{"ORDER":"ORDEM", "ELEMENT":"ELEMENTO", "TITLE":"TITULO", "GROUP":"GRUPO", "DEFINITION":"DEFINIÇÃO"}
   }
-
 }

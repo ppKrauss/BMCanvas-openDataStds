@@ -1,0 +1,14 @@
+ELEMENT,ABBREV,CONTEXT,REF_WIKIDATA,SYNOPSIS
+channels,CH,business,"Q14888394, Q6576947","The way through which #customerSegments want to be reached. The communication, distribution, and sales channels that will be used to deliver the #valuePropositions."
+costStructure,C$,business,,"Refers to all the items that result in cost for #valuePropositions and its delivery. The pricing structure the business incurs, include all the types and relative proportions of fixed and variable costs."
+customerRelationships,CR,business,Q485643,Business's (social or comunicative) interactions with current and future #customerSegments and the systematic design of the customer relationship processes.
+customerSegments,CS,business,Q363057,The one customer or several customer segments the business serves.
+keyActivities,KA,business,,"The critical activitiesnthat #keyResources must perform to deliver everything in the business-context (#channels, #valuePropositions, #solutions, etc.)."
+keyPartners,KP,business,,"When some key activities are outsourced and/or some resources are acquired from outside the business, partners and partnerships are required."
+keyResources,KR,business,,The assets required to offer and deliver everything in the business-context.
+revenueStreams,R$,business,,The revenue streams that will result from delivering the #valuePropositions successfully to #customerSegments.
+valuePropositions,VP,business,Q11700776,The customer problems the business seeks to solve and the customer needs it strives to satisfy with its products and services in an effort to provide value to the customer segment(s).
+keyMetrics,KM,product,,...
+problem,P,product,Q730920,...
+solution,S,product,Q6017127,"In a customer-problem-solution, the minimum feature set."
+unfairAdvantage,UA,product,,"Something that cannot be copied or bought, as competitive advantage."

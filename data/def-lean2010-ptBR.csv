@@ -1,10 +1,10 @@
 ORDEM,ELEMENTO,TITULO,GRUPO,INSTRUÇÕES DE PRENCHIMENTO
-1,customerSegments,Segmento de Clientes,Mercado,há sempre um grupo especial de pessoas para adquirir seu produto ou serviço.
-2,valuePropositions,Proposta de Valor,Oferta,"vai muito além de definir produto, é a razão pela qual meus clientes querem comprar o que ofereço."
-3,channels,Canais,Mercado,"na hora da entrega, quanto mais curto o caminho que o cliente fizer, melhor. Como o cliente quer comprar?"
-4,unfairAdvantage,Vantagem Competitiva,Mercado,Como meus clientes e concorrentes sentem o meu difierencial? Como mantenho isso sem que os concorrentes o façam?
-5,revenueStreams,Fontes de Receita,Mercado,"como vou cobrar, deve estar de acordo com a forma que o cliente gosta de pagar."
-6,keyMetrics,Métricas Principais,Produto,"Métricas de desempenho do negócio, que apontem de fato a sua evolução e sucesso."
-7,solution,Solução,Produto,"As 3 características principais da solução que você vende, e que de fato resolve um problema do cliente. Descreve o 'produto mínimo viável'."
-8,problem,Problema,Produto,"Os 3 problemas principais. Um problema bem definido é metade do problema resolvido."
-9,costStructure,Estrutura de Custos,Produto,"listar os buscos, e lembrar que a diferenciação na redução de custos ajuda a abrir espaços de mercado."
+1,problem,Problema,Produto,Os 3 problemas principais. Um problema bem definido é metade do problema resolvido.
+2,customerSegments,Segmento de Clientes,Mercado,há sempre um grupo especial de pessoas para adquirir seu produto ou serviço.
+3,valuePropositions,Proposta de Valor,Oferta,"vai muito além de definir produto, é a razão pela qual meus clientes querem comprar o que ofereço."
+4,solution,Solução,Produto,"As 3 características principais da solução que você vende, e que de fato resolve um problema do cliente. Descreve o 'produto mínimo viável'."
+5,keyMetrics,Métricas Principais,Produto,"Métricas de desempenho do negócio, que apontem de fato a sua evolução e sucesso."
+6,channels,Canais,Mercado,"na hora da entrega, quanto mais curto o caminho que o cliente fizer, melhor. Como o cliente quer comprar?"
+7,costStructure,Estrutura de Custos,Produto,"listar os buscos, e lembrar que a diferenciação na redução de custos ajuda a abrir espaços de mercado."
+8,revenueStreams,Fontes de Receita,Mercado,"Como vou cobrar, deve estar de acordo com a forma que o cliente gosta de pagar."
+9,unfairAdvantage,Vantagem Competitiva,Mercado,"Como meus clientes e concorrentes sentem o meu difierencial? Como mantenho isso sem que os concorrentes o façam?"

@@ -1,5 +1,8 @@
-LABEL,NAME,URL,NOTES
-std2009,Standard of 2009,https://strategyzer.com,"The most used BMCanvas form."
-lean2010,Lean of 2010,http://leanstack.com/why-lean-canvas,"Lean Canvas, the most used in product design and startup context."
-tracegp2012,TraceGP of 2012,http://tracegp.com.br/,"prof. J. Finocchio methodology, popular in Brazil at 2012's."
-
+LABEL,SCOPE,NAME,URL,NOTES
+std2009,business,Standard 2009,https://strategyzer.com/canvas,"The most used BMCanvas form."
+lean2010,product,Lean 2010,http://leanstack.com/why-lean-canvas,"Lean Canvas, the most used in product design and startup context."
+finoc2012,project,Finocchio's 2012,http://tracegp.com.br/,"J. Finocchio methodology, popular in Brazil at 2012's."
+fitzp2010,product,Fitzpatrick's of 2010,http://readwrite.com/2010/06/15/the-startup-toolkit-a-canvas-f,"Rob Fitzpatrick adaption of 2010, a Lean inspiration"
+joyce2015soc,social,Joyce's of 2015,http://www.academia.edu/12914336,"A. Joice adaption of 2015, for sustainable business design, social layer"
+joyce2015env,enviroment,Joyce's of 2015,http://www.academia.edu/12914336,"A. Joice adaption of 2015, for sustainable business design, enviroment layer"
+inov2015,social,InnovationLab's of 2015,http://www.innovationlab.my,"A socialbusinessmodelcanvas.com and innovationlab.my adaptation"

@@ -1,0 +1,10 @@
+ORDER,ELEMENT,TITLE,GROUP,INSTRUTTIONS
+1,customerSegments,Customer Segments,Customers,The one customer or several customer segments the organization serves.
+2,valuePropositions,Value Propositions,Offer,The customer problems the organization seeks to solve and the customer needs it strives to satisfy with its products and services in an effort to provide value to the customer segment(s).
+3,channels,Channels,Customers,"The communication, distribution, and sales channels that will be used to deliver the value propositions to customers."
+4,customerRelationships,Customer Relationships,Customers,The relationships you want to establish and maintain with each customer/customer segment.
+5,revenueStreams,Revenue Streams,Finances,The revenue streams that will result from delivering the value propositions successfully to customers.
+6,keyResources,Key Resources,Infrastructure,The assets required to offer and deliver everything that has been defined in 1-5 above.
+7,keyActivities,Key Activities,Infrastructure,The critical activities key resources must perform to deliver everything that has been defined in 1-5 above.
+8,keyPartners,Key Partnerships,Infrastructure,"When some key activities are outsourced and/or some resources are acquired from outside the organization, partners and partnerships are required."
+9,costStructure,Cost Structure,Finances,The pricing structure the business model elements result in.
